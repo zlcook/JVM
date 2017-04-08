@@ -1,0 +1,106 @@
+Classfile /E:/studytry/FinalTest.class
+  Last modified 2017-4-8; size 673 bytes
+  MD5 checksum e7142ac1879e571484c4bc5788ea533b
+  Compiled from "FinalTest.java"
+public class FinalTest
+  SourceFile: "FinalTest.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #16.#45        //  java/lang/Object."<init>":()V
+   #2 = Fieldref           #15.#46        //  FinalTest.int_num:I
+   #3 = Fieldref           #15.#47        //  FinalTest.char_num:C
+   #4 = Fieldref           #15.#48        //  FinalTest.short_num:S
+   #5 = Float              45.3f
+   #6 = Fieldref           #15.#49        //  FinalTest.float_num:F
+   #7 = Double             39.8d
+   #9 = Fieldref           #15.#50        //  FinalTest.double_num:D
+  #10 = Fieldref           #15.#51        //  FinalTest.byte_num:B
+  #11 = Long               2323l
+  #13 = Fieldref           #15.#52        //  FinalTest.long_num:J
+  #14 = Fieldref           #15.#53        //  FinalTest.boolean_flage:Z
+  #15 = Class              #54            //  FinalTest
+  #16 = Class              #55            //  java/lang/Object
+  #17 = Utf8               int_num
+  #18 = Utf8               I
+  #19 = Utf8               ConstantValue
+  #20 = Integer            12
+  #21 = Utf8               char_num
+  #22 = Utf8               C
+  #23 = Integer            97
+  #24 = Utf8               short_num
+  #25 = Utf8               S
+  #26 = Integer            30
+  #27 = Utf8               float_num
+  #28 = Utf8               F
+  #29 = Utf8               double_num
+  #30 = Utf8               D
+  #31 = Utf8               byte_num
+  #32 = Utf8               B
+  #33 = Integer            121
+  #34 = Utf8               long_num
+  #35 = Utf8               J
+  #36 = Utf8               boolean_flage
+  #37 = Utf8               Z
+  #38 = Integer            1
+  #39 = Utf8               <init>
+  #40 = Utf8               ()V
+  #41 = Utf8               Code
+  #42 = Utf8               LineNumberTable
+  #43 = Utf8               SourceFile
+  #44 = Utf8               FinalTest.java
+  #45 = NameAndType        #39:#40        //  "<init>":()V
+  #46 = NameAndType        #17:#18        //  int_num:I
+  #47 = NameAndType        #21:#22        //  char_num:C
+  #48 = NameAndType        #24:#25        //  short_num:S
+  #49 = NameAndType        #27:#28        //  float_num:F
+  #50 = NameAndType        #29:#30        //  double_num:D
+  #51 = NameAndType        #31:#32        //  byte_num:B
+  #52 = NameAndType        #34:#35        //  long_num:J
+  #53 = NameAndType        #36:#37        //  boolean_flage:Z
+  #54 = Utf8               FinalTest
+  #55 = Utf8               java/lang/Object
+{
+  public FinalTest();
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0       
+         5: bipush        12
+         7: putfield      #2                  // Field int_num:I
+        10: aload_0       
+        11: bipush        97
+        13: putfield      #3                  // Field char_num:C
+        16: aload_0       
+        17: bipush        30
+        19: putfield      #4                  // Field short_num:S
+        22: aload_0       
+        23: ldc           #5                  // float 45.3f
+        25: putfield      #6                  // Field float_num:F
+        28: aload_0       
+        29: ldc2_w        #7                  // double 39.8d
+        32: putfield      #9                  // Field double_num:D
+        35: aload_0       
+        36: bipush        121
+        38: putfield      #10                 // Field byte_num:B
+        41: aload_0       
+        42: ldc2_w        #11                 // long 2323l
+        45: putfield      #13                 // Field long_num:J
+        48: aload_0       
+        49: iconst_1      
+        50: putfield      #14                 // Field boolean_flage:Z
+        53: return        
+      LineNumberTable:
+        line 1: 0
+        line 3: 4
+        line 4: 10
+        line 5: 16
+        line 6: 22
+        line 7: 28
+        line 8: 35
+        line 9: 41
+        line 10: 48
+}

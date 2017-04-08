@@ -1,0 +1,117 @@
+Classfile /E:/studytry/test.class
+  Last modified 2017-4-8; size 659 bytes
+  MD5 checksum a9db2e98749e49201c3a364ccb1b1979
+  Compiled from "test.java"
+public class test
+  SourceFile: "test.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #19.#44        //  java/lang/Object."<init>":()V
+   #2 = Fieldref           #18.#45        //  test.int_num:I
+   #3 = Fieldref           #18.#46        //  test.char_num:C
+   #4 = Fieldref           #18.#47        //  test.short_num:S
+   #5 = Float              45.3f
+   #6 = Fieldref           #18.#48        //  test.float_num:F
+   #7 = Double             39.8d
+   #9 = Fieldref           #18.#49        //  test.double_num:D
+  #10 = Fieldref           #18.#50        //  test.byte_num:B
+  #11 = Long               2323l
+  #13 = Fieldref           #18.#51        //  test.long_num:J
+  #14 = Fieldref           #18.#52        //  test.boolean_flage:Z
+  #15 = Long               5555l
+  #17 = Fieldref           #18.#53        //  test.long_delay_num:J
+  #18 = Class              #54            //  test
+  #19 = Class              #55            //  java/lang/Object
+  #20 = Utf8               int_num
+  #21 = Utf8               I
+  #22 = Utf8               char_num
+  #23 = Utf8               C
+  #24 = Utf8               short_num
+  #25 = Utf8               S
+  #26 = Utf8               float_num
+  #27 = Utf8               F
+  #28 = Utf8               double_num
+  #29 = Utf8               D
+  #30 = Utf8               byte_num
+  #31 = Utf8               B
+  #32 = Utf8               long_num
+  #33 = Utf8               J
+  #34 = Utf8               long_delay_num
+  #35 = Utf8               boolean_flage
+  #36 = Utf8               Z
+  #37 = Utf8               <init>
+  #38 = Utf8               ()V
+  #39 = Utf8               Code
+  #40 = Utf8               LineNumberTable
+  #41 = Utf8               init
+  #42 = Utf8               SourceFile
+  #43 = Utf8               test.java
+  #44 = NameAndType        #37:#38        //  "<init>":()V
+  #45 = NameAndType        #20:#21        //  int_num:I
+  #46 = NameAndType        #22:#23        //  char_num:C
+  #47 = NameAndType        #24:#25        //  short_num:S
+  #48 = NameAndType        #26:#27        //  float_num:F
+  #49 = NameAndType        #28:#29        //  double_num:D
+  #50 = NameAndType        #30:#31        //  byte_num:B
+  #51 = NameAndType        #32:#33        //  long_num:J
+  #52 = NameAndType        #35:#36        //  boolean_flage:Z
+  #53 = NameAndType        #34:#33        //  long_delay_num:J
+  #54 = Utf8               test
+  #55 = Utf8               java/lang/Object
+{
+  public test();
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0       
+         5: bipush        12
+         7: putfield      #2                  // Field int_num:I
+        10: aload_0       
+        11: bipush        97
+        13: putfield      #3                  // Field char_num:C
+        16: aload_0       
+        17: bipush        30
+        19: putfield      #4                  // Field short_num:S
+        22: aload_0       
+        23: ldc           #5                  // float 45.3f
+        25: putfield      #6                  // Field float_num:F
+        28: aload_0       
+        29: ldc2_w        #7                  // double 39.8d
+        32: putfield      #9                  // Field double_num:D
+        35: aload_0       
+        36: bipush        121
+        38: putfield      #10                 // Field byte_num:B
+        41: aload_0       
+        42: ldc2_w        #11                 // long 2323l
+        45: putfield      #13                 // Field long_num:J
+        48: aload_0       
+        49: iconst_1      
+        50: putfield      #14                 // Field boolean_flage:Z
+        53: return        
+      LineNumberTable:
+        line 1: 0
+        line 3: 4
+        line 4: 10
+        line 5: 16
+        line 6: 22
+        line 7: 28
+        line 8: 35
+        line 9: 41
+        line 11: 48
+
+  public void init();
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0       
+         1: ldc2_w        #15                 // long 5555l
+         4: putfield      #17                 // Field long_delay_num:J
+         7: return        
+      LineNumberTable:
+        line 14: 0
+        line 15: 7
+}

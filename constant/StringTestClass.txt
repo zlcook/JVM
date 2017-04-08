@@ -1,0 +1,145 @@
+Classfile /E:/studytry/StringTest.class
+  Last modified 2017-4-8; size 869 bytes
+  MD5 checksum c9cfc1a5dfec9bd27ebf3b6a9bd5c97b
+  Compiled from "StringTest.java"
+public class StringTest
+  SourceFile: "StringTest.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #24.#40        //  java/lang/Object."<init>":()V
+   #2 = String             #41            //  zlcook
+   #3 = Fieldref           #23.#42        //  StringTest.str1:Ljava/lang/String;
+   #4 = Class              #43            //  java/lang/StringBuilder
+   #5 = Methodref          #4.#40         //  java/lang/StringBuilder."<init>":()V
+   #6 = Methodref          #4.#44         //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #7 = String             #45            //  hello
+   #8 = Methodref          #4.#46         //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+   #9 = Fieldref           #23.#47        //  StringTest.str2:Ljava/lang/String;
+  #10 = Class              #48            //  java/lang/String
+  #11 = String             #49            //  zlcook here?
+  #12 = Methodref          #10.#50        //  java/lang/String."<init>":(Ljava/lang/String;)V
+  #13 = Fieldref           #23.#51        //  StringTest.str3:Ljava/lang/String;
+  #14 = String             #52            //  everybody 
+  #15 = String             #53            //  here?
+  #16 = Fieldref           #23.#54        //  StringTest.str4:Ljava/lang/String;
+  #17 = String             #55            //  boy
+  #18 = Fieldref           #23.#56        //  StringTest.fin1:Ljava/lang/String;
+  #19 = String             #57            //  boyis boy
+  #20 = Fieldref           #23.#58        //  StringTest.fin2:Ljava/lang/String;
+  #21 = String             #59            //  is boy
+  #22 = Fieldref           #23.#60        //  StringTest.fin3:Ljava/lang/String;
+  #23 = Class              #61            //  StringTest
+  #24 = Class              #62            //  java/lang/Object
+  #25 = Utf8               str1
+  #26 = Utf8               Ljava/lang/String;
+  #27 = Utf8               str2
+  #28 = Utf8               str3
+  #29 = Utf8               str4
+  #30 = Utf8               fin1
+  #31 = Utf8               ConstantValue
+  #32 = Utf8               fin2
+  #33 = Utf8               fin3
+  #34 = Utf8               <init>
+  #35 = Utf8               ()V
+  #36 = Utf8               Code
+  #37 = Utf8               LineNumberTable
+  #38 = Utf8               SourceFile
+  #39 = Utf8               StringTest.java
+  #40 = NameAndType        #34:#35        //  "<init>":()V
+  #41 = Utf8               zlcook
+  #42 = NameAndType        #25:#26        //  str1:Ljava/lang/String;
+  #43 = Utf8               java/lang/StringBuilder
+  #44 = NameAndType        #63:#64        //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #45 = Utf8               hello
+  #46 = NameAndType        #65:#66        //  toString:()Ljava/lang/String;
+  #47 = NameAndType        #27:#26        //  str2:Ljava/lang/String;
+  #48 = Utf8               java/lang/String
+  #49 = Utf8               zlcook here?
+  #50 = NameAndType        #34:#67        //  "<init>":(Ljava/lang/String;)V
+  #51 = NameAndType        #28:#26        //  str3:Ljava/lang/String;
+  #52 = Utf8               everybody 
+  #53 = Utf8               here?
+  #54 = NameAndType        #29:#26        //  str4:Ljava/lang/String;
+  #55 = Utf8               boy
+  #56 = NameAndType        #30:#26        //  fin1:Ljava/lang/String;
+  #57 = Utf8               boyis boy
+  #58 = NameAndType        #32:#26        //  fin2:Ljava/lang/String;
+  #59 = Utf8               is boy
+  #60 = NameAndType        #33:#26        //  fin3:Ljava/lang/String;
+  #61 = Utf8               StringTest
+  #62 = Utf8               java/lang/Object
+  #63 = Utf8               append
+  #64 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #65 = Utf8               toString
+  #66 = Utf8               ()Ljava/lang/String;
+  #67 = Utf8               (Ljava/lang/String;)V
+{
+  public StringTest();
+    flags: ACC_PUBLIC
+    Code:
+      stack=5, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0       
+         5: ldc           #2                  // String zlcook
+         7: putfield      #3                  // Field str1:Ljava/lang/String;
+        10: aload_0       
+        11: new           #4                  // class java/lang/StringBuilder
+        14: dup           
+        15: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+        18: aload_0       
+        19: getfield      #3                  // Field str1:Ljava/lang/String;
+        22: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        25: ldc           #7                  // String hello
+        27: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        30: invokevirtual #8                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        33: putfield      #9                  // Field str2:Ljava/lang/String;
+        36: aload_0       
+        37: new           #10                 // class java/lang/String
+        40: dup           
+        41: ldc           #11                 // String zlcook here?
+        43: invokespecial #12                 // Method java/lang/String."<init>":(Ljava/lang/String;)V
+        46: putfield      #13                 // Field str3:Ljava/lang/String;
+        49: aload_0       
+        50: new           #4                  // class java/lang/StringBuilder
+        53: dup           
+        54: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+        57: ldc           #14                 // String everybody 
+        59: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        62: new           #10                 // class java/lang/String
+        65: dup           
+        66: ldc           #15                 // String here?
+        68: invokespecial #12                 // Method java/lang/String."<init>":(Ljava/lang/String;)V
+        71: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        74: invokevirtual #8                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        77: putfield      #16                 // Field str4:Ljava/lang/String;
+        80: aload_0       
+        81: ldc           #17                 // String boy
+        83: putfield      #18                 // Field fin1:Ljava/lang/String;
+        86: aload_0       
+        87: ldc           #19                 // String boyis boy
+        89: putfield      #20                 // Field fin2:Ljava/lang/String;
+        92: aload_0       
+        93: new           #4                  // class java/lang/StringBuilder
+        96: dup           
+        97: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+       100: aload_0       
+       101: getfield      #3                  // Field str1:Ljava/lang/String;
+       104: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       107: ldc           #21                 // String is boy
+       109: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       112: invokevirtual #8                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       115: putfield      #22                 // Field fin3:Ljava/lang/String;
+       118: return        
+      LineNumberTable:
+        line 2: 0
+        line 4: 4
+        line 5: 10
+        line 6: 36
+        line 7: 49
+        line 9: 80
+        line 10: 86
+        line 11: 92
+}
